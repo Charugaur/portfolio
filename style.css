@@ -1,0 +1,166 @@
+*{
+    background-color:rgb(7, 7, 53);
+    margin:0%;
+    padding:0%;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 540;
+    
+}  
+   
+
+.navbar{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(29, 29, 72);
+}
+.left{
+    display:flex;
+    justify-content:start;
+    align-items: center;
+   
+}
+#logo{
+    font-family:sans-serif;
+    font-size: larger;
+}
+ul{
+    display: flex;
+    justify-content:space-around;
+    align-items: space-between;
+    position: relative;
+    right: 10%;
+    background-color: rgb(29, 29, 72);
+    
+}
+.list{
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    width:40%;
+    background-color: rgb(29, 29, 72);
+}
+li a{
+    background-color: rgb(29, 29, 72);
+    text-decoration: none;
+}
+li a:hover{
+    color:#b197fc ;
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+}
+.left-section{
+    width: 30%;
+    height: 100px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5rem;
+    position: relative;
+    top: 4em;
+    margin-left: 3em;
+}
+.name{
+    color: rgb(137, 75, 196);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.web{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+img{
+    height: 400px;
+    width: 30em;
+    margin-top: 100px;
+    margin-right: 50px;
+    border-radius: 50%;    
+}
+#element{
+    color: rgb(183, 141, 222);
+}
+hr{
+    border: 1px solid rgb(142, 92, 211);
+    margin-top: 8rem;
+    
+}
+#about-section{
+    display: flex;
+    justify-content:center;    
+    margin: 8rem;
+   
+}
+.abt{
+    height: auto;
+    width: 36%;
+    font-size: 1.5rem;
+    position: relative;
+    left: 23em;
+    top: 2.4rem;
+    color: rgb(225, 216, 205);
+
+}
+.rn{
+    color: rgb(175, 107, 238);
+}
+#goal{
+    margin-top:25px;
+    color: rgb(214, 205, 193);
+
+}
+.img2{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    position: relative;
+    right: 45%;
+    background-image: url('developer-web-responsive-design-vector-10547200.jpg');
+    background-size:cover;
+}
+.icons{
+    display:inline-flex;
+    position: relative;
+    top: 2em;
+
+}
+#git{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top:19px;
+    margin: 0px 10px 0px 40px;
+}
+#linkdn{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top:19px;
+    margin: 0px 4px 0px 20px;
+}
+#insta{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top:19px;
+    margin: 4.2px 40px 0px 20px;
+}
+footer{
+    background-color: rgb(10, 10, 22);
+    width: 100%;
+    height: 10em;
+}
+#cpy{
+
+    position: relative;
+    top:100px;
+    left: 40%;
+}
+.copy{
+    position: relative;
+    top:100px;
+    left: 40%;
+    background-color: rgb(10, 10, 22);
+
+}
