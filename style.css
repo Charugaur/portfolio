@@ -1,5 +1,5 @@
 *{
-    background-color:rgb(7, 7, 53);
+    background-color:#272635;
     margin:0%;
     padding:0%;
     color:white;
@@ -14,7 +14,7 @@
     justify-content:space-around;
     align-items: center;
     height: 50px;
-    background-color: rgb(29, 29, 72);
+    background-color: #a6a6a8;
 }
 .left{
     display:flex;
@@ -35,7 +35,7 @@ ul{
     align-items: space-between;
     position: relative;
     right: 10%;
-    background-color: rgb(29, 29, 72);
+    background-color: #a6a6a8;
     
 }
 .list{
@@ -43,14 +43,14 @@ ul{
     display: flex;
     justify-content:space-between;
     width:40%;
-    background-color: rgb(29, 29, 72);
+    background-color: #a6a6a8;
 }
 li a{
-    background-color: rgb(29, 29, 72);
+    background-color: #a6a6a8;
     text-decoration: none;
 }
 li a:hover{
-    color:#b197fc ;
+    color:#b1e5f2 ;
 }
 .section{
     display: flex;
@@ -66,7 +66,7 @@ li a:hover{
     margin-left: 3em;
 }
 .name{
-    color: rgb(137, 75, 196);
+    color: #b1e5f2;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 
 }
@@ -82,10 +82,10 @@ img{
     border-radius: 50%;    
 }
 #element{
-    color: rgb(183, 141, 222);
+    color: #b1e5f2;
 }
 hr{
-    border: 1px solid rgb(142, 92, 211);
+    border: 1px solid #b1e5f2;
     margin-top: 8rem;
     
 }
@@ -93,36 +93,29 @@ hr{
     display: flex;
     justify-content:center;    
     margin: 8rem;
-   
 }
 .heading1{
     position: relative;
     left: 23.8em;
-    bottom: 4em;
+    bottom: 3em;
     width: 20%;
     font-weight: bolder;
     font-size:x-large;
-    color: #987bee;
+    color: #b1e5f2;
 }
-.sub-head{
-    position: relative;
-    left: 25.8em;
-    bottom: 4em;
-    width: 20%;
-    color: rgb(240, 231, 246);
-}
+
 .abt{
     height: auto;
     width: 59%;
     font-size: 1.5rem;
     position: relative;
-    left: 15em;
+    left: 19em;
     top: 2.6rem;
     color: rgb(205, 203, 201);
 
 }
 .rn{
-    color: rgb(175, 107, 238);
+    color: #b1e5f2;
 }
 #goal{
     margin-top:25px;
@@ -169,18 +162,20 @@ hr{
 footer{
     background-color: rgb(10, 10, 22);
     width: 100%;
-    height: 10em;
+    height: 8em;
 }
 #cpy{
-
     position: relative;
-    top:100px;
-    left: 40%;
+    top: 80px;
+    left: 42%;
+    color: #a6a6a8;
+
 }
 .copy{
     position: relative;
-    top:100px;
-    left: 40%;
+    top:80px;
+    left: 42%;
+    color: #a6a6a8;
     background-color: rgb(10, 10, 22);
 
 }
@@ -188,7 +183,7 @@ button{
     width: 10em;
     height: 40px;
     position: relative;
-    background-color: #fcf4fcf0;
+    background-color: #a6a6a8;
     margin:3em 0em 0em 0em;
     border-radius: 10em;
     border: 0px transparent ;
@@ -197,4 +192,136 @@ button{
 }
 button:hover{
     background-color: #d0ced7;
+}
+#project-sec{
+    display: flex;
+    justify-content:center;    
+    margin: 8rem;
+   
+}
+#contact-sec{
+    height: 40em;
+}
+.heading2{
+    position: relative;
+    left:15em ;
+    bottom: 2em;
+    width: 20%;
+    font-weight: bolder;
+    font-size:x-large;
+    color: #b1e5f2;
+}
+.links{
+    width:600px;
+    height: 400px;
+    position: relative;
+    right: 10%;
+    
+}
+.link1{
+    font-size: medium;
+    color: #b1e5f2;
+    position: absolute;
+    margin-top: 4em;
+}
+.link2{
+    font-size: medium;
+    color: #b1e5f2;
+    position: absolute;
+    margin: 7em 24.4em 0 0;
+}
+.link3{
+    font-size: medium;
+    color: #b1e5f2;
+    position: absolute;
+    margin-top: 10em;
+    margin-right:25% ;
+}
+.heading3{
+    position: relative;
+    left:6em ;
+    top: 1.4em;
+    width: 20%;
+    font-weight: bolder;
+    font-size:x-large;
+    color: #0b0c0c;
+    background-color: #e3e3e8;
+}
+.form{
+    width:30%;
+    height: 400px;
+    border-radius: 10px;
+    position: relative;
+    left: 35%;
+    top: 20%;
+    background-color: #f8f8fc;
+    background-size: cover;
+
+}
+input{
+    background-color:rgb(192, 195, 199);
+    color: rgb(14, 13, 13);
+    border: 1px solid transparent;
+    text-align:start;
+}
+
+#name{
+    display: flex;
+    border-radius: 10px;
+    position: relative;
+    top: 6em;
+    left: 10%;
+    width: 75%;
+    height: 20px;
+
+}
+input::placeholder{
+    color: rgb(131, 128, 128);
+    font-style: italic;
+}
+
+#email{
+    display: flex;
+    border-radius: 10px;
+    position: relative;
+    left: 10%;
+    width: 75%;
+    top: 8em;
+    height: 20px;
+
+}
+#mssg{
+    display: flex;
+    position: relative;
+    top: 10em;
+    left: 10%;
+    width: 75%;
+    border-radius: 10px;
+    height: 50px;
+}
+#send{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10em;
+    left: 10%;
+    background-color:rgb(192, 195, 199) ;
+}
+#send:hover{
+    background-color: #a6a6a8;
+}
+.footerlink{
+    background-color:rgb(10, 10, 22);
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width:50%;
+    left: 25%;
+    top: 30px;
+}
+#f1{
+    background-color: rgb(10, 10, 22);
+    color: #a6a6a8;
 }
